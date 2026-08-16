@@ -131,7 +131,7 @@ personal: {
       badge: "JEE Web Application",
       subtitle: "Multi-restaurant menu browsing, interactive cart, and order workflow engine.",
       techStack: ["Java", "JEE", "JSP", "Servlets", "JDBC", "MySQL", "HTML5", "CSS3", "JavaScript"],
-      image: "/images/food_delivery.png",
+      image: "images/food_delivery.png",
       github: "https://github.com/Pravinjdjd/Food_Delivery_FullStack",
       liveDemo: "https://food-delivery-fullstack-l3rz.onrender.com",
       featured: true,
@@ -153,7 +153,7 @@ personal: {
       subtitle: "Modern billing and sales management interface for managing products, customers, invoices, and transactions.",
      
       techStack: ["HTML5", "CSS3", "JavaScript", "React.js"],
-      image: "/images/billing.png",
+      image: "images/billing.png",
       github: "https://github.com/Pravinjdjd/Billing",
       liveDemo: "https://pravinjdjd.github.io/Billing/index.html",
       eatured: true,
