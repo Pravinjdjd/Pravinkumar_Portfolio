@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pravin Portfolio</title>
+
+  <script>
+    const path = window.location.pathname;
+    const base = "/Pravinkumar_Portfolio/";
+
+    if (path.startsWith(base)) {
+      const route = path.substring(base.length);
+
+      window.location.replace(
+        base + "?redirect=" + encodeURIComponent(route)
+      );
+    }
+  </script>
+</head>
+
+<body>
+  Loading...
+</body>
+</html>
