@@ -171,7 +171,93 @@ personal: {
   ],
     architecture: "React.js Components → JavaScript Business Logic → Local Storage",
   databaseSchema: "Products (id, name, category, price, stock) | Customers (id, name, email, phone, address) | Bills (id, customer_id, bill_date, subtotal, tax, discount, total_amount, payment_method) | BillItems (id, bill_id, product_id, quantity, price, item_total)"
-    }
+    },
+
+    {
+  id: "averon-creative-studio",
+  title: "Averon Creative Studio Portfolio",
+  badge: "Interactive Web Portfolio",
+
+  subtitle:
+    "High-performance creative studio portfolio with interactive visuals, animations, and modern responsive design.",
+
+  techStack: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Canvas API"
+  ],
+
+  image: "images/averon.png",
+
+  github:
+    "https://github.com/techsupportaverontech-lgtm/Averon-portfolio",
+
+  liveDemo: "https://techsupportaverontech-lgtm.github.io/Averon-portfolio/",
+
+  featured: true,
+
+  description:
+    "An interactive creative studio portfolio designed with modern frontend technologies, dynamic particle effects, custom cursor interactions, smooth scroll reveals, and responsive layouts.",
+
+  keyFeatures: [
+    "Interactive canvas particle background with mouse-based interactions",
+    "Custom animated cursor and smooth hover micro-interactions",
+    "Scroll reveal animations using IntersectionObserver",
+    "Animated statistics and dynamic visual effects",
+    "Responsive layout optimized for desktop, tablet, and mobile devices"
+  ],
+
+  architecture:
+    "HTML5 Structure → CSS3 Design System → JavaScript Interaction Layer → Canvas Animation Engine",
+
+  databaseSchema:
+    "No Database | Static frontend portfolio with client-side JavaScript interactions"
+},
+
+{
+  id: "ms-technologies",
+  title: "MS Technologies Business Platform",
+  badge: "Business Web Platform",
+
+  subtitle:
+    "Modern technology business website covering products, services, projects, rentals, careers, and customer communication.",
+
+  techStack: [
+    "React.js",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Vite"
+  ],
+
+  image: "images/MS.png",
+
+  github:
+    "https://github.com/Pravinjdjd/MS-Technologiess",
+
+  liveDemo:
+    "https://www.mstechnologiees.com/",
+
+  featured: true,
+
+  description:
+    "A modern business platform developed for MS Technologies with dedicated product, project, rental, career, service, and contact experiences across a responsive web interface.",
+
+  keyFeatures: [
+    "Responsive company website with modern business-focused interface",
+    "Dedicated product and technology solution presentation",
+    "Projects section for showcasing company capabilities and completed work",
+    "Rental and service-oriented business pages",
+    "Careers and contact sections for customer and candidate communication"
+  ],
+
+  architecture:
+    "React/Vite Frontend → Component-Based UI → JavaScript Application Logic → Web Services",
+
+  databaseSchema:
+    "Frontend-focused application | Business content and interactions managed through the application layer"
+}
   ],
 
   // Developer Journey Milestones
