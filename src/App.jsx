@@ -20,13 +20,18 @@ export function App() {
   const [activeSection, setActiveSection] = useState('home');
   const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
 
-const basePath = import.meta.env.BASE_URL;
+const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const currentPath = window.location.pathname;
 
+const params = new URLSearchParams(window.location.search);
+const redirectPath = params.get('redirect');
+
 const isProjectsPage =
-  currentPath === `${basePath}projects` ||
-  currentPath === `${basePath}projects/`;
+  currentPath === `${basePath}/projects` ||
+  currentPath === `${basePath}/projects/` ||
+  redirectPath === 'projects' ||
+  redirectPath === 'projects/';
   
   useEffect(() => {
     // Don't track home sections on Projects page
